@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coupon Sponsor</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar transparent navbar-inverse">
+        <div class="container-fluid navbar-inner">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+            </button>
+            <!-- <a class="navbar-brand" href="index.html">Administrator</a> -->
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active1"><a href="addCoupon.html">Add Coupon</a></li>
+                <li><a href="viewCoupon.html">View Coupon</a></li> 
+                <li><a href="viewSponsor.html">View Sponsor</a></li> 
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+            <div class="panel panel-main">
+                <h1><p>C</p>oupon <span>Sponsor</span></h1>
+                <p>We make it easy for everyone to add the details of the Sponsor</p>
+                <div class="ruler">
+                    <div class="ruler1"></div>
+                    <div class="ruler2"></div>
+                </div>
+
+                <form>
+                    <div class="icon">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <input type="text" placeholder="Sponsor Company Name">
+                    </div>
+                    
+                    <div class="icon">
+                        <i class="fa fa-ticket" aria-hidden="true"></i>
+                        <input type="text" placeholder="Coupon Code">
+                    </div>
+                    
+                    <div class="icon">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" placeholder="Person Name">
+                    </div>
+                    
+                    <div class="icon">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <input type="text" placeholder="Mobile Number">
+                    </div>
+                    
+                    <div class="icon">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input type="text" placeholder="Email">
+                    </div>
+
+                    <div class="btns">
+                        <button type="button" class="btn btn-add">Add</button>
+                        <button type="reset" class="btn btn-reset">Clear</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">   
+        </div>
+    </div>
+</body>
+</html>

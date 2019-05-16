@@ -1,0 +1,459 @@
+body
+{
+    overflow-x: hidden;
+    background-image: url('pic2.png');
+}
+
+/*navbar*/
+.navbar, .transparent, .navbar-inverse, .navbar-inner 
+{
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navbar .navbar-inner a
+{
+    background-color: white;
+    color: rgb(65, 64, 64);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar ul li.active1
+{
+    border: 2px solid rgb(136, 136, 136);
+    border-top: 2px solid white;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(0,0,0,0.0);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navbar ul li:hover:not(.active1)
+{
+    border: 2px solid rgb(136, 136, 136);
+    background-color: rgba(0,0,0,0.0);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus 
+{
+    color: black;
+}
+
+
+.container-home
+{
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    border: 1px solid grey;
+    padding: 0;
+    box-shadow: 7px 7px 40px gray;
+}
+
+.container-home header
+{
+    background-image: linear-gradient(to right, #002870, #0093D7);
+}
+
+.container-home header h1
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+.container-home .btn-refresh
+{
+    display: block;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 0;
+    background-color: #005FA5;
+    color: white;
+    text-align: center;
+}
+
+.container-home .panel-1,.container-home .panel-2,.container-home .panel-3
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 15px 35px;
+    color: white;
+    border: none;
+}
+
+.container-home .panel-1
+{
+    background-image: linear-gradient(to left, #2F609B, #2F4B86);
+    text-align: center;
+}
+
+.container-home .panel-2
+{
+    background-image: linear-gradient(to left, #2F79B2, #2F639D);
+    text-align: center;
+}
+.container-home .panel-3
+{
+    background-image: linear-gradient(to left, rgb(66, 164, 221), #2F7AB4);
+    text-align: center;
+}
+
+.container-home header .panel h1
+{
+    padding-bottom: 0;
+}
+
+.container-home header .panel h3
+{
+    margin-top: 10px;
+}
+
+.container-home header .count-data p
+{
+    color: white;
+    margin: 0 15px 5px 15px;
+}
+.container-home header .count-data p span
+{
+    color: yellow;
+}
+
+.container-home .table-responsive
+{
+    height: 400px;
+    overflow-y: auto;
+}
+
+
+
+@media (min-width: 992px)
+{
+    .panel-2
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .container-edit
+    {
+        margin-top: 0;
+    }
+}
+
+
+/*------ AddCoupon.html ----------*/
+
+
+.panel-main
+{
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 10px 10px 45px grey;
+}
+
+.panel-main h1 
+{
+    color: rgb(83, 83, 83);
+}
+.panel-main h1 p
+{
+    margin: 0;
+    padding: 0;
+    color: orange;
+    display: inline-block;
+}
+.panel-main h1 span
+{
+    color: rgb(80, 185, 255);
+}
+.panel-main p
+{
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    padding: 0 35px;
+}
+
+.panel-main .ruler1
+{
+    border-bottom: 2px solid #438DFF;
+    width: 20%;
+    display: inline-block; 
+    margin-right: 20px;
+}
+.panel-main .ruler2
+{
+    border-bottom: 2px solid rgb(165, 164, 164);
+    
+    width: 20%;
+    display: inline-block;
+}
+
+form
+{
+    margin-top: 25px;
+}
+
+.icon input
+{
+    text-indent: 25px;
+    padding: 10px 20px;
+    width: 75%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 2px;
+    border-bottom: 1px solid rgb(194, 192, 192);
+}
+
+.icon
+{
+    position: relative;
+}
+
+.icon i.fa
+{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+}
+
+
+.btn-add, .btn-reset
+{
+    margin: 25px 5px 20px 5px;
+    width: 30%; 
+    text-align: center;
+    box-shadow: 4px 4px 25px rgb(182, 182, 182);
+}
+
+.btn-add
+{
+    background-image: linear-gradient(to left, #2178FF, #68A3FF);
+    color: white;
+    border: 1px solid rgb(99, 161, 255);
+}
+.btn-reset
+{
+    background-color: white;
+    color: #438DFF;
+    border: 1px solid rgb(243, 243, 243);
+}
+
+
+/*----------- viewCoupon ----------------*/
+
+
+.panel-coupon
+{
+    padding-top: 10px;
+    background-color: #F3F7FD;
+    margin-top: 15px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.panel-coupon input
+{
+    margin: 20px 0px 0px 30px;
+    width: 40%;
+    display: inline-block;
+}
+.panel-coupon .btn-search
+{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    color: white;
+    background-color: #4B85FF;
+    border: 1px solid #4B85FF;
+}
+.panel-coupon .btn-filters
+{
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
+    width: 60%;
+    border: 1px solid rgb(185, 185, 185);
+    text-align: center;
+    color: grey;
+    background-color: white;
+}
+
+.panel-coupon .flex-container
+{
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+}
+
+.panel-coupon .box
+{
+    border-radius: 4px;
+    margin: 10px;
+    background-color: #4B85FF;
+    height: 145px;
+    width: 260px;
+}
+
+.panel-coupon .box table tr td
+{
+    color: white;
+    padding: 3px 3px;
+}
+
+.panel-coupon .box table tr td:first-child
+{
+    font-weight: 400;
+}
+
+
+.panel-coupon .box .btn-more
+{
+    display: block;
+    margin: auto;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(55, 126, 207);
+    padding-top: 3px;
+    padding-bottom: 3px; 
+}
+
+.panel-coupon .page
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*---------viewSponsor.html----------*/
+
+
+.container-viewsponsor
+{
+    width: 80%;
+    box-shadow: 10px 10px 35px grey;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.container-viewsponsor .btn-filter
+{
+    width: 150px;
+    text-align: center;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.filter input
+{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.table-container 
+{
+    border: 1px solid rgb(243, 243, 243);
+    margin-top: 15px;
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto;
+    height: 393px;
+    margin-bottom: 13px;
+}
+
+table
+{
+    width: 100%;
+    border-collapse:separate; 
+    border-spacing: 0 0.6em;
+}
+
+.table-container table thead th
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.table-container table tbody td
+{
+    text-align: center;
+    padding: 13px 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.table-container table tbody td:first-child
+{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.table-container table tbody td:last-child
+{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.table-container table .btn
+{
+    background-color: #FFFFFF;
+    border: 1px solid rgb(156, 156, 156);
+}
+
+.table-container .btn-pencil
+{
+    padding-left: 11px;
+    padding-right: 10px;
+}
+
+
+
+
+
+/* width */
+::-webkit-scrollbar 
+{
+    width: 0px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track 
+{
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb 
+{
+    background: rgb(219, 219, 219); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+{
+    background: rgb(146, 146, 146); 
+}
